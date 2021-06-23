@@ -34,6 +34,8 @@
   "dependencies": {
     "@fontsource/fira-mono": "^4.2.2",
     "@lukeed/uuid": "^2.0.0",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.0",
+    "@sveltejs/adapter-static": "^1.0.0-next.0",
     "@sveltejs/adapter-node": "^1.0.0-next.0",
     "@urql/core": "^2.0.0",
     "@urql/exchange-request-policy": "^0.1.1",
