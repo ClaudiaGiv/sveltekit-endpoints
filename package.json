@@ -24,10 +24,17 @@
     "svelte-check": "^2.0.0",
     "svelte-preprocess": "^4.0.0",
     "tslib": "^2.0.0",
-    "typescript": "^4.0.0"
+    "typescript": "^4.0.0",
+    "tailwindcss": "^2.1.1",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2"
   },
   "type": "module",
   "dependencies": {
+    "graphql": "^15.5.0",
+    "@urql/svelte": "^1.2.3",
+    "@urql/core": "^2.0.0",
+    "@urql/exchange-request-policy": "^0.1.1",
     "@fontsource/fira-mono": "^4.2.2",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1"
