@@ -1,5 +1,6 @@
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+// import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-node';
 // import adapter from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -29,13 +30,13 @@ const config = {
 				// noExternal: Object.keys(pkg.dependencies || {})
 			}
 		},
-		// adapter: adapter()
-		adapter: adapter({
-			// default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: null
-		})
+		adapter: adapter()
+		// adapter: adapter({
+		// 	// default options are shown
+		// 	pages: 'build',
+		// 	assets: 'build',
+		// 	fallback: null
+		// })
 	}
 };
 
